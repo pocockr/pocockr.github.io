@@ -56,23 +56,44 @@
 		
 			<h2> Predictions page</h2>
 			
+				<form name="myOrderForm">
+		
+				<table>
+					<tr>
+						<td>Select a match from this round for prediction </td>
+						<td><select id="MatchSelection"> <!-- onchange="changeFunc();" --> <!-- I was going to use this change function, then I got the JQuery working! -->
+							    <option value="None" selected="selected">-- Select --</option>
+								<option value="MatchOne">West Ham v Chelsea</option>
+								<option value="MatchTwo">Newcastle v Burnley</option>
+								<option value="MatchThree">Southampton v Brighton</option>
+								<option value="MatchFour">Wolves v Liverpool</option>
+								<option value="MatchFive">Watford v Man City</option>
+								<option value="MatchSix">Leeds v Brentford</option>
+								<option value="MatchSeven">Man United v Crystal Palace</option>
+								<option value="MatchEight">Tottenham v Norwich</option>
+								<option value="MatchNine">Aston Villa v Leicester</option>
+								<option value="MatchTen">Everton v Arsenal</option>
+							  </select></td>
+					</tr>
+					
+
+					
+
 					
 				
+				</table>	
 				
-				This is a test of the CSVToTable plugin.
-				<br><br>
-				Original CSV (comma separated values) source of <a href="dataset_2010-2021.csv">dataset_2010-2021.csv</a>:<br>
-					<div id="CSVSource" class="source"></div>
+			</form>
+		
+		
+		<div id = "prediction"></div> <!-- prediction text gets printed here -->	
 
-				<br><br>
-				CSV To Table:<br>
-				<div id="CSVTable"></div>
 
 
 		</div>
 				 
 
-		</div id="photo"><img src="Premier_League_original.JPG" alt ="EPL pic" width="50%"></div><!-- I just added this to take up space -->
+	</div id="photo"><img src="Premier_League_original.JPG" alt ="EPL pic" width="50%"></div><!-- I just added this to take up space -->
 		
 		
 				
