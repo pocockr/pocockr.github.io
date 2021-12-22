@@ -102,19 +102,5 @@ $(document).ready(function(){
 		
     });
 
-/*
-    $(function() {
-        $.get('dataset_2010-2021.csv', function(data) {
-            $('#CSVSource').html('<pre>' + data + '</pre>');
-        });
-        $('#CSVTable').CSVToTable('dataset_2010-2021.csv', { loadingImage: 'images/loading.gif', startLine: 0 });
-        $.get('dataset_2010-2021.csv', function(data) {
-            $('#CSVSource').html('<pre>' + data + '</pre>');
-        });
-        //$('#TSVTable').CSVToTable('dataset_2010-2021.tsv', { loadingText: 'Loading TSV Data...', loadingImage: 'images/loading.gif', startLine: 0, separator: "\t" });
-        //$('#CSVTable2').CSVToTable('dataset_2010-2021.csv', { loadingImage: 'images/loading.gif', startLine: 1, headers: ['Album Title', 'Artist Name', 'Price ($USD)'] }).bind("loadComplete",function() { 
-            //$('#CSVTable2').find('TABLE').tablesorter();
-        //});;
-    });
-*/
+
 	
