@@ -61,7 +61,7 @@ $(document).ready(function(){
 		
 		if(selectedMatch == "MatchOne")
 		{
-		$( "#prediction" ).text( "Predicted Result: Home Win!" ).show().fadeOut( 4000 ); 
+		$( "#prediction" ).text( "Predicted Result: Draw!" ).show().fadeOut( 4000 ); 
 		}
 		else if(selectedMatch == "MatchTwo")
 		{
@@ -69,11 +69,11 @@ $(document).ready(function(){
 		}
 		else if(selectedMatch == "MatchThree")
 		{
-		$( "#prediction" ).text( "Predicted Result: Draw!" ).show().fadeOut( 4000 ); 
+		$( "#prediction" ).text( "Predicted Result: Home Win!" ).show().fadeOut( 4000 ); 
 		}
 		else if(selectedMatch == "MatchFour")
 		{
-		$( "#prediction" ).text( "Predicted Result: Home Win!" ).show().fadeOut( 4000 ); 
+		$( "#prediction" ).text( "Predicted Result: Away Win!" ).show().fadeOut( 4000 ); 
 		}
 		else if(selectedMatch == "MatchFive")
 		{
@@ -85,7 +85,7 @@ $(document).ready(function(){
 		}
 		else if(selectedMatch == "MatchSeven")
 		{
-		$( "#prediction" ).text( "Predicted Result: Away Win!" ).show().fadeOut( 4000 ); 
+		$( "#prediction" ).text( "Predicted Result: Draw!" ).show().fadeOut( 4000 ); 
 		}
 		else if(selectedMatch == "MatchEight")
 		{
@@ -93,11 +93,11 @@ $(document).ready(function(){
 		}
 		else if(selectedMatch == "MatchNine")
 		{
-		$( "#prediction" ).text( "Predicted Result: Draw!" ).show().fadeOut( 4000 ); 
+		$( "#prediction" ).text( "Predicted Result: Away Win!" ).show().fadeOut( 4000 ); 
 		}
 		else if(selectedMatch == "MatchTen")
 		{
-		$( "#prediction" ).text( "Predicted Result: Home Win!" ).show().fadeOut( 4000 ); 
+		$( "#prediction" ).text( "Predicted Result: Draw!" ).show().fadeOut( 4000 ); 
 		}
 		
     });
